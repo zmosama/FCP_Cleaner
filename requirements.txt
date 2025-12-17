@@ -1,0 +1,26 @@
+# Final Cut Pro Bundle Cleaner - Dependencies
+# ============================================
+
+# Core Python libraries (built-in, no installation needed):
+# - pathlib
+# - shutil
+# - os
+# - sys
+# - curses (included in macOS/Linux Python)
+# - readline (included in macOS/Linux Python)
+# - glob
+# - datetime
+# - typing
+
+# Optional: For safer deletion (moves to trash instead of permanent delete)
+# Uncomment to use trash functionality:
+# send2trash>=1.8.2
+
+# Development Dependencies (optional)
+# pytest>=7.4.0           # For running tests
+# black>=23.0.0           # Code formatter
+# mypy>=1.5.0             # Type checker
+# ruff>=0.0.290           # Fast linter
+
+# Note: This project is designed to work with Python 3.6+ standard library
+# No external dependencies required for basic functionality!
